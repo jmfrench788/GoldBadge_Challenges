@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChallengeThree.Repository",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChallengeThree.UI", "03_ChallengeThree\ChallengeThree.UI\ChallengeThree.UI.csproj", "{E2358148-A26B-4D73-9035-AF28DC81860A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_ChallengeThree_Tests", "03_ChallengeThree_Tests\03_ChallengeThree_Tests.csproj", "{974A9837-77EC-44AC-83B6-02496F61CA19}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -84,6 +86,14 @@ Global
 		{E2358148-A26B-4D73-9035-AF28DC81860A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2358148-A26B-4D73-9035-AF28DC81860A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2358148-A26B-4D73-9035-AF28DC81860A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBC086C0-A1F8-403D-991C-BA6A01A87C1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBC086C0-A1F8-403D-991C-BA6A01A87C1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBC086C0-A1F8-403D-991C-BA6A01A87C1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBC086C0-A1F8-403D-991C-BA6A01A87C1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{974A9837-77EC-44AC-83B6-02496F61CA19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{974A9837-77EC-44AC-83B6-02496F61CA19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{974A9837-77EC-44AC-83B6-02496F61CA19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{974A9837-77EC-44AC-83B6-02496F61CA19}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{3282CC0C-D37B-49FC-B9A1-C3C884040135} = {EFFBE3FE-8EF7-4F26-B91A-56624D0584BA}
