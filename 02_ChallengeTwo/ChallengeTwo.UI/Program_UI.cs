@@ -69,7 +69,6 @@ using System.Threading.Tasks;
 
             PressAnyKeyToContinue();
         }
-
         private void DisplayOutingDetails(Outing outing)
         {
             System.Console.WriteLine($"Type: {outing.OutingType} \n"+
@@ -79,7 +78,6 @@ using System.Threading.Tasks;
             $"Total Cost: {outing.TotalCost} \n"
             );
         }
-
         private void AddOuting()
         {
             Console.Clear();
@@ -128,13 +126,11 @@ using System.Threading.Tasks;
 
             PressAnyKeyToContinue();
         }
-
         private bool CloseApplication()
         {
             Console.Clear();
             return false;
         }
-
         private void GetTotalCost()
         {
             double TotalOutingCost = 0;
@@ -211,7 +207,6 @@ using System.Threading.Tasks;
 
             PressAnyKeyToContinue();
         }
-
         private void SeedData()
         {
             var outing1 = new Outing(OutingType.Golf, 4, "January 1st", 6.99, 4*6.99);
@@ -227,7 +222,6 @@ using System.Threading.Tasks;
             _outings.AddOutingToDB(outing5);
 
         }
-
         private void PressAnyKeyToContinue()
         {
             System.Console.WriteLine("Press any key to continue");

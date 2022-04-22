@@ -6,12 +6,10 @@ using System.Threading.Tasks;
    public class Outing_Repository
     {
         private readonly List<Outing> _outingsInDB = new List<Outing>();
-
         public List<Outing> GetOuting()
         {
             return _outingsInDB;
         }
-
         public bool AddOutingToDB(Outing outing)
         {
             if (outing !=null)
@@ -24,6 +22,4 @@ using System.Threading.Tasks;
                 return false;
             }
         }
-
-     
     }

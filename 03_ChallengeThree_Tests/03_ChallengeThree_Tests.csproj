@@ -22,7 +22,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    
+    <ProjectReference Include="..\03_ChallengeThree\ChallengeThree.Data\ChallengeThree.Data.csproj" />
+    <ProjectReference Include="..\03_ChallengeThree\ChallengeThree.Repository\ChallengeThree.Repository.csproj" />
   </ItemGroup>
 
 </Project>

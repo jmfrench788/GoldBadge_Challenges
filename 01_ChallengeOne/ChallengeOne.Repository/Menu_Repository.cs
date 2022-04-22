@@ -8,12 +8,10 @@ using System.Threading.Tasks;
     {
         private readonly List<Menu> _menuItems = new List<Menu>();
         private int _count;
-
         public List<Menu> GetAllMenuItems()
         {
             return _menuItems;
         }
-
         public Menu GetItemByID(int id)
         {
             foreach(var item in _menuItems)
@@ -25,7 +23,6 @@ using System.Threading.Tasks;
             }
             return null;
         }
-
         public bool AddToMenu(Menu item)
         {
             if(item != null)
@@ -37,7 +34,6 @@ using System.Threading.Tasks;
             }
             return false;
         }
-        
         public bool RemoveFromMenu(int id)
         {
             var item = GetItemByID(id);
